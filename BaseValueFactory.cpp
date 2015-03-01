@@ -1,0 +1,60 @@
+#include "BaseValueFactory.h"
+#include "baseValue.h"
+
+
+QMap<QString, create_ptr> BaseValueFactory::create_list = { 
+	MAP_TAG(REDNUMBER),
+	MAP_TAG(ACS),
+	MAP_TAG(T),
+	MAP_TAG(V),
+	MAP_TAG(QGS),
+	MAP_TAG(OGS),
+	MAP_TAG(ZGS),
+	MAP_TAG(HGS),
+	MAP_TAG(DGS),
+	MAP_TAG(XGS),
+	MAP_TAG(JGJSH),
+	MAP_TAG(JGOSH),
+	MAP_TAG(HZ),
+	MAP_TAG(HV),
+	MAP_TAG(JJ),
+	MAP_TAG(HQO),
+	MAP_TAG(HYT),
+	MAP_TAG(HZH),
+	MAP_TAG(HDX),
+	MAP_TAG(JGHVH),
+	MAP_TAG(JGHVHH),
+	MAP_TAG(JGHVHV),
+	MAP_TAG(JGHVHDX),
+	MAP_TAG(JGHVHJO),
+	MAP_TAG(JGTVS),
+	MAP_TAG(JGBMJ),
+	MAP_TAG(JGMMJ),
+	MAP_TAG(HVYT),
+	MAP_TAG(HVZH),
+	MAP_TAG(HVDX),
+	MAP_TAG(HVYTS0),
+	MAP_TAG(HVYTS1),
+	MAP_TAG(HVYTS2),
+	MAP_TAG(LS),
+	MAP_TAG(LZS),
+	MAP_TAG(PD),
+	MAP_TAG(SD),
+	MAP_TAG(QS1),
+	MAP_TAG(QS2),
+	MAP_TAG(QS3),
+	MAP_TAG(GWGS),
+	MAP_TAG(SWGS),
+	MAP_TAG(BLUENUMBER),
+	MAP_TAG(BLUEZF),
+	MAP_TAG(BLUEDX),
+	MAP_TAG(BLUEQO),
+	MAP_TAG(BLUEZH),
+	MAP_TAG(BLUEV),
+	MAP_TAG(BLUE012L)
+};
+
+LotterTag* BaseValueFactory::createLotterTag(QString tag, Formula* parent)
+{
+	return create_list.value(tag)(parent);
+}

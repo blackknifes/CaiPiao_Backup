@@ -1,0 +1,24 @@
+D:\aa\CaiPiao\androidDebug\android-build\gen\org\qtproject\example\CaiPiao\R.java \
+ : D:\aa\CaiPiao\androidDebug\android-build\res\layout\splash.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values\libs.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-de\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-el\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-es\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-et\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-fa\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-fr\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-id\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-it\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-ja\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-ms\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-nb\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-nl\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-pl\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-pt-rBR\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-ro\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-rs\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-ru\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-zh-rCN\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\res\values-zh-rTW\strings.xml \
+D:\aa\CaiPiao\androidDebug\android-build\bin\AndroidManifest.xml \

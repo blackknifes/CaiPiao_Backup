@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 11pt &quot;楷体&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QListWidget" name="showList">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>591</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <item>
+     <property name="text">
+      <string>期数:                   红球:                   蓝球:</string>
+     </property>
+     <property name="flags">
+      <set>NoItemFlags</set>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="TestMath">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>红球随机</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AC值</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>取头</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>取尾</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>奇数个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>偶数个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>质数个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>合数个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>大数个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>小数个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>奇数和</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>偶数和</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>和值</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>合值</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>极距</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>和值奇偶</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>和值012</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>和值质合</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>和值大小</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尾数和值</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尾和合数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尾和尾数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尾和大小</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尾和奇偶</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>同尾个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>最大码距</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>最小码距</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>合值012</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>合值质合</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>合值大小</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0路个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1路个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2路个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>连号个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>连号组数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>遗漏和</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>偏度</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>散度</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1区个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2区个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3区个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>个位个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>十位个数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蓝球1-16随机</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蓝球振幅</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蓝球大小</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蓝球奇偶</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蓝球质合</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蓝球尾数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蓝球012</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>390</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 206, 206);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>390</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>测试结果：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>430</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>测   试</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="formulaBT">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>430</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>公式查找</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
